@@ -5,7 +5,7 @@ class Restless < Formula
 
   on_linux do
     url "https://github.com/bspippi1337/restless/releases/download/vv0.2.2-2-gb749d65/restless_v0.2.2-2-gb749d65_linux_amd64.tar.gz"
-    sha256 "59cf07fe1767e4c6e01c4a49def4d73ab83de77efc7de721c6e2e329c5c137ac"
+    sha256 "fd41741944e5ee8f40d752d8cd5bbaf09b3244f6f5542facf9681f2d3aa98889"
     def install
       bin.install "restless_linux_amd64" => "restless"
     end
